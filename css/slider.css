@@ -1,0 +1,131 @@
+.arrow-left,
+.arrow-right {
+    cursor: pointer;
+}
+
+.arrow-left,
+.arrow-right,
+.slide-text {
+    z-index: 1;
+    position: absolute;
+    font-size: 45px;
+    top: calc(50% - 100px);
+    padding: 0 5px;
+}
+
+.slide-text {
+    left: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1.2;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.slider-wrapper {
+    height: 100%;
+}
+
+.bottom-right {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.bottom-left {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+
+.top-right {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.top-left {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.slider-content-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    transition: 1100ms ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.slider-logo {
+    height: 80px;
+    max-width: 80px;
+}
+
+.slider-navigation-wrapper {
+    position: absolute;
+    bottom: 20px;
+    list-style: none;
+}
+
+.slide-description {
+    position: absolute;
+    bottom: 40px;
+    left: 325px;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+}
+
+.slide-navigation {
+    float: left;
+    border: 1px dotted;
+}
+
+.slide-navigation span {
+    margin: 2px;
+    padding: 0 7px;
+    display: block;
+}
+
+.active-slide-nav {
+    background: #fff;
+}
+
+.d-none {
+    display: none;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}

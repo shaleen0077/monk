@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'Klavika', sans-serif;
+	src: url('../font/klavika-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Klavika-Light', sans-serif;
+	src: url('../font/klavika-light-webfont.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Klavika-Medium', sans-serif;
+	src: url('../font/klavika-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Klavika-Bold', sans-serif;
+	src: url('../font/klavika-bold-webfont.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #fff;
+    background-color: #222;
+	font-family: 'Klavika';
+}
+
+.slider-content-area {
+    background-image: url('../images/background.jpg');
+}
+
+.slider-0-image {
+    background-position: 0;
+    transform: translate(0, 0);
+}
+
+.slider-1-image {
+    background-position: -1200px 0;
+}
+
+.slider-2-image {
+    background-position: -2000px 0;
+}
+
+.slider-3-image {
+    background-position: -3240px 0;
+}
+
+.slider-4-image {
+    background-position: -4500px 0;
+}
+
+.slider-5-image {
+    background-position: -5700px 0;
+}
+
+.slider-6-image {
+    background-position: -7000px 0;
+}
+
+.slider-7-image {
+    background-position: -8750px 0;
+}
+
+.slider-8-image {
+    background-position: -9900px 0;
+}
+
+.mm-careers-template {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.mm-headline {
+    font-size: 50px;
+    text-decoration: underline;
+    padding-bottom: 150px;
+}
+
+.first-template-heading {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1.2;
+    position: absolute;
+    padding: 20px;
+ }
+
+.first-template-desc {
+    position: absolute;
+    bottom: 80px;
+    padding: 20px;
+    font-size: 12px;
+}
